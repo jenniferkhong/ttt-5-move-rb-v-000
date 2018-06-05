@@ -10,6 +10,6 @@ def input_to_index(input)
   input = input.to_i-1
 end
 
-def move(board, input, current_player = "X")
-  puts board[input] = current player
+def move(board, input, player = "X")
+  puts board[input] = player
 end
