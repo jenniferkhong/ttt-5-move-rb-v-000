@@ -9,3 +9,6 @@ end
 def move(board, location, current player = "X")
   board[location.to_i-1] = current player
 end
+
+def input_to_index("1"-"9")
+end
