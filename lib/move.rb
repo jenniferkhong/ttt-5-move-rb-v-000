@@ -6,9 +6,10 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def move(board, location, current player = "X")
-  board[location.to_i-1] = current player
+def input_to_index(input)
+  input.to_i-1
 end
 
-def input_to_index("1"-"9")
+def move(board, location, current player = "X")
+  puts board[location.to_i-1] = current player
 end
